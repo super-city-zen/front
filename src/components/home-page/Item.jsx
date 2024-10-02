@@ -19,7 +19,7 @@ const Item = ({ item, background }) => {
                     </div>
                 </>)}
                 <div onMouseEnter={onHover} onMouseLeave={onLeave} className={'w-full flex items-center h-8 rounded-t-md ' + background}>
-                    <h1 className="font-bold text-white items-center mx-3" >
+                    <h1 className="font-bold truncate text-white items-center mx-3" >
                         {item.title.length > 50 ? (
                             <>
                                 {item.title.substring(0, 50)}...

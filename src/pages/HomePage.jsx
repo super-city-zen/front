@@ -19,7 +19,7 @@ const HomePage = () => {
         <>
             <div className={'m-auto flex justify-center'}>
             <Card textColor={'text-dark-blue'} borderColor={'border-dark-blue'} background={'bg-dark-blue'} height={'h-auto '} width={'w-[45rem] '} title={'Categories'} items={categories} />
-                <div className="mx-2">
+                <div className="mx-4">
                     <Card className="my-2" borderColor={'border-purple'} textColor={'text-purple'} background={'bg-purple'} height={'h-[20rem] '} width={'w-[30rem] '} title={'Vote en cours'} items={votes} />
                     <Card className="my-2" borderColor={'border-purple'} textColor={'text-purple'} background={'bg-purple'} height={'h-[20rem] '} width={'w-[30rem] '} title={'Actualitées'} items={news}/>
                 </div>

@@ -18,10 +18,10 @@ const HomePage = () => {
     return (
         <>
             <div className={'m-auto flex justify-center'}>
-            <Card textColor={'text-dark-blue'} borderColor={'border-dark-blue'} background={'bg-dark-blue'} height={'h-[49rem] '} width={'w-[40rem] '} title={'Categories'} items={categories} />
+            <Card textColor={'text-dark-blue'} borderColor={'border-dark-blue'} background={'bg-dark-blue'} height={'h-auto '} width={'w-[45rem] '} title={'Categories'} items={categories} />
                 <div className="mx-2">
-                    <Card className="my-2" borderColor={'border-purple'} textColor={'text-purple'} background={'bg-purple'} height={'h-[24rem] '} width={'w-[20rem] '} title={'Vote en cours'} items={votes} />
-                    <Card className="my-2" borderColor={'border-purple'} textColor={'text-purple'} background={'bg-purple'} height={'h-[24rem] '} width={'w-[20rem] '} title={'Actualitées'} items={news}/>
+                    <Card className="my-2" borderColor={'border-purple'} textColor={'text-purple'} background={'bg-purple'} height={'h-[20rem] '} width={'w-[30rem] '} title={'Vote en cours'} items={votes} />
+                    <Card className="my-2" borderColor={'border-purple'} textColor={'text-purple'} background={'bg-purple'} height={'h-[20rem] '} width={'w-[30rem] '} title={'Actualitées'} items={news}/>
                 </div>
             </div>
         </>

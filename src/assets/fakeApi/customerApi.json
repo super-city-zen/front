@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "firstname": "Anne-Aymone",
+    "lastname": "Giscard d'estaing née Sauvage de brantes",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Anne-Aymone_Giscard-d%27Estaing_%28cropped_from_NARA-186830.tif%29.jpg",
+    "email": "Naynaydu75@hotmail.fr",
+    "adresse": "11 Rue de bénouville, 75016 Paris, France",
+    "role": ["Admin", "Municipalite"],
+    "createdAt": "2024-10-02"
+  }
+]

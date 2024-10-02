@@ -7,9 +7,9 @@ export default {
     extend: {},
     colors: {
       'blue': '#00B8FF',
-      'dark-blue': '#2271AA',
+      'dark-blue': '#71b3e3',
       'purple': '#A470DB',
-      'white': '#F3F3F3',
+      'white': '#FFF',
       'light-grey': '#C7C7C7',
       'grey': '#7C7C7A',
       'dark-grey': '#5B5B58',

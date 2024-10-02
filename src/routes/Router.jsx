@@ -1,8 +1,10 @@
 import {createBrowserRouter} from "react-router-dom";
 import ErrorPage from "../pages/ErrorPage";
 import App from "../App";
-import LogPage from "../pages/LogPage.jsx";
 import HomePage from "../pages/HomePage.jsx";
+import LogInPage from "../pages/LogInPage.jsx";
+import RegisterPage from "../pages/RegisterPage.jsx";
+import ProfilsPage from "../pages/ProfilsPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -11,15 +13,25 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/log",
-                element: <LogPage/>
+                element: <LogInPage/>
             },
             {
                 path: '/',
                 element: <HomePage/>
+                
+            },
+            {
+                path : "/register",
+                element : <RegisterPage />
+            },
+            {
+                path :"/profils",
+                element : <ProfilsPage />
             }
         ],
         errorElement: <ErrorPage/>
-    },
+    }
+
 ]);
 
 export default router;

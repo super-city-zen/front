@@ -1,0 +1,49 @@
+{
+  "Accounts": [
+    {
+      "id": 1,
+      "firstname": "Anne-Aymone",
+      "lastname": "Giscard d'estaing née Sauvage de brantes",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Anne-Aymone_Giscard-d%27Estaing_%28cropped_from_NARA-186830.tif%29.jpg",
+      "email": "Naynaydu75@hotmail.fr",
+      "adresse": "11 Rue de bénouville, 75016 Paris, France",
+      "role": [
+        "ADMIN"
+      ],
+      "createdAt": "2024-10-02"
+    },
+    {
+      "id": 2,
+      "firstname": "Bernard",
+      "lastname": "Pichon",
+      "img": "",
+      "email": "pichon.bernardb@hotmail.fr",
+      "adresse": "11 Rue de bénouville, 75016 Paris, France",
+      "role": [
+        "MUNICIPALITEE"
+      ],
+      "createdAt": "2024-10-02"
+    },
+    {
+      "id": 3,
+      "firstname": "Anne-Aymone",
+      "lastname": "Giscard d'estaing née Sauvage de brantes",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Anne-Aymone_Giscard-d%27Estaing_%28cropped_from_NARA-186830.tif%29.jpg",
+      "email": "Naynaydu75@hotmail.fr",
+      "adresse": "11 Rue de bénouville, 75016 Paris, France",
+      "role": [
+        "CITOYEN"
+      ],
+      "createdAt": "2024-10-02"
+    }
+  ],
+  "projet": [
+    {
+      "id": 1,
+      "userId" : 1,
+      "createAt" : "10-01-2024",
+      "title" : "Projet N°1",
+      "descriptions" : ""
+    }
+  ]
+}

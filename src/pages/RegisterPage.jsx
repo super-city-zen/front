@@ -1,31 +1,30 @@
 import React, {useRef} from 'react';
 import Input from "../components/Input.jsx";
+import AboutMe from "../components/Log/AboutMe.jsx";
+import FormLog from "../components/Log/FormLog.jsx";
 
 const RegisterPage = () => {
 
     const {username, password, accessKey} = {
-        username : useRef(""),
-        password : useRef(""),
-        accessKey : useRef("")
+        username: useRef(""),
+        password: useRef(""),
+        accessKey: useRef("")
     }
 
-    function handleSubmit(e){
+    function handleSubmit(e) {
         e.preventDefault();
         const data = {
-            accessKey : accessKey.current.value,
-            password : accessKey.current.value,
-            login : username.current.value,
+            accessKey: accessKey.current.value,
+            password: accessKey.current.value,
+            login: username.current.value,
         }
         console.log(data)
     }
 
     return (
         <section className={"flex h-full pl-4 "}>
-            <section
-                className={"w-5/12  shadow-2xl h-full flex items-center justify-center bg-[url('src/assets/image/tech-planet.jpg')] bg-no-repeat bg-cover bg-center "}>
-            </section>
-            <section className={" w-7/12 shadow-2xl  flex flex-col justify-center items-center bg-white h-full"}>
-                <h3 className={"text-6xl"}>Register</h3>
+            <AboutMe/>
+            <FormLog title={"Register"}>
                 <form className={"w-7/12 flex flex-col items-end justify-end"} onSubmit={(e) => handleSubmit(e)}>
                     <fieldset className={"flex flex-col w-full gap-5 mt-8 mb-8"}>
 
@@ -54,7 +53,7 @@ const RegisterPage = () => {
                         <button className={"text-2xl"}>Sign In</button>
                     </div>
                 </form>
-            </section>
+            </FormLog>
         </section>
     );
 };

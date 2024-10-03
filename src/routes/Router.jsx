@@ -12,13 +12,13 @@ const router = createBrowserRouter([
         element: <App/>,
         children: [
             {
-                path: "/log",
-                element: <LogInPage/>
-            },
-            {
                 path: '/',
                 element: <HomePage/>
-                
+
+            },
+            {
+                path: "/log",
+                element: <LogInPage/>
             },
             {
                 path : "/register",
@@ -33,5 +33,4 @@ const router = createBrowserRouter([
     }
 
 ]);
-
 export default router;
